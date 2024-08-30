@@ -162,3 +162,7 @@ cython_debug/
 
 # Whatever
 .xml
+
+# Default ignored files
+/shelf/
+/workspace.xml

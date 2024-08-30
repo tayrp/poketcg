@@ -2,7 +2,7 @@ from typing import Final
 import os
 from dotenv import load_dotenv
 from discord import Intents, Client, Message
-from responses import get_response
+#from responses import get_response
 from pokemontcgsdk import Card
 from pokemontcgsdk import Set
 from pokemontcgsdk import Type
@@ -11,9 +11,9 @@ from pokemontcgsdk import Subtype
 from pokemontcgsdk import Rarity
 
 # PokemonTCG.io API Key
-export POKEMONTCG_IO_API_KEY='12345678-1234-1234-1234-123456789ABC'
+export POKEMONTCG_IO_API_KEY='API-KEY-HERE'
 
-# STEP 0: LOAD OUR TOKEN FROM SOMEWHERE SAFE
+# STEP 0: LOAD TOKEN FROM SOMEWHERE SAFE
 load_dotenv()
 TOKEN: Final[str] = os.getenv('DISCORD_TOKEN')
 

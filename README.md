@@ -1,5 +1,6 @@
 # PokéTCG
 ## This is PokéTCG, A Pokémon Trading Card Game bot using the PokemonTCG.io API.
+[![GitHub Pages](https://github.com/tayrp/poketcg/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/tayrp/poketcg/actions/workflows/pages/pages-build-deployment)
 > [!CAUTION]  
 > PokéTCG is no where near being completed, Or even near being funtional.
 
